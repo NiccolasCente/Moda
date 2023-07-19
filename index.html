@@ -7,25 +7,39 @@
     <meta name="author" content="Daniel">
     <meta name="description" content="descrição bacanuda">
     <meta name="keywords" content="html5, tecnologia">
-
+    <link rel="shortcut icon" href="ico/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="cookie.png" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&family=Viaoda+Libre&display=swap"
         rel="stylesheet">
 
+    <link rel="stylesheet" href="css/cookies.css">  
     <link rel="stylesheet" href="css/estilo.css">
+
+    
 </head>
 
 <body>
+    <div class="cookies-msg" id="cookies-msg">
+        <div class="cookies-txt">
+            <p>Este site usa cookies e tecnologias afins, que são pequenos arquivos ou pedaços de texto baixados para um aparelho quando o visitante acessa um website ou aplicativo. Ao utilizar nosso site você está de acordo com a utilização dos cookies para te proporcionar uma melhor experiência.</p>
+            <div class="cookies-btn">
+                <button onclick="aceito()">Aceito</button>
+            </div>
+        </div>
+
+        <script src="cookies.js"></script>
+    </div><!--cookies-msg-->
+
     <div id="principal">
 
         <header class="header-top">
             <h1 class="logotipo">Moda Ora</h1>
             <nav class="header-nav">
                 <ul>
-                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="https://niccolascentedevelopments.netlify.app/" target="_blank">Portfolio</a></li>
                     <li><a href="#">Sobre nós</a></li>
-                    <li><a href="#">Contato</a></li>
                 </ul>
             </nav>
         </header>
@@ -80,7 +94,7 @@
         </main>
 
         <footer class="rodape">
-            Copyright &copy; modaora.com
+            Copyright &copy; Niccolas
         </footer>
     </div>
 </body>
